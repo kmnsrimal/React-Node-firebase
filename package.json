@@ -17,7 +17,7 @@
     "classnames": "2.2.6",
     "firebase": "^7.0.0",
     "history": "4.7.2",
-    "jquery": "^1.9.1",
+    "jquery": "^3.4.0",
     "multi-select-react": "^0.1.8",
     "multiselect-dropdown-react": "^1.0.5",
     "multiselect-react-dropdown": "^1.2.4",
