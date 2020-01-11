@@ -1,0 +1,10 @@
+.grid {
+    align-items: stretch;
+  }
+  
+ .griditem {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+  }
