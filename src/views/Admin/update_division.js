@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import carfix from "./SunrisePeekTeaEstate.jpg";
-//  import "./UserProfile.css";
+ import "./UserProfile.css";
 import "../../pages/App.css";
 import firebase from "../../config/firebase.js";
 
