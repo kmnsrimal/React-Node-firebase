@@ -30,7 +30,6 @@ class Register extends React.Component {
       this.state = {
         
         Division_no:null,
-        // conductor:null,
         conductor_name:null,
         conductor_id:null,
         no_of_feild:null,
