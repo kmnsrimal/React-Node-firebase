@@ -124,19 +124,7 @@ class Register extends React.Component {
       
       }
       
-      // else(firebase.database().ref("Division").child(feild){
-        
-      //   firebase.database().ref("Division").child(Division_no).update({
-          
-      //     conductor_name:conductor_name,
-      //     conductor_id:conductor_id,
-      //     no_of_feild:no_of_feild,
-          
-          
-        
-      //   })
-
-      // }
+      
   }
 
   
