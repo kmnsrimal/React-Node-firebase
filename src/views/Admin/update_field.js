@@ -138,11 +138,11 @@ class Register extends React.Component {
         alert("Please Complete all the details");
        
       }
-    //   else if(Phone_number.length!=10){
+      else if(Phone_number.length!=10){
         
-    //     alert("Wrong Phone Number");
-    //     window.location.reload();
-    //   }
+        alert("Wrong Phone Number");
+        window.location.reload();
+      }
 
       
       
