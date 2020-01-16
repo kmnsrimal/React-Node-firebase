@@ -66,7 +66,7 @@ class Dashboard extends React.Component {
   componentWillMount = async() =>{
     this.setFieldData();
     //this.todayDate();
-   // this.addDataTo7Day();
+//    this.addDataTo7Day();//
   }
   handleChange = (event, value) => {
     this.setState({ value });
