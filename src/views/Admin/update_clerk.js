@@ -161,13 +161,13 @@ class Register extends React.Component {
       
       })
       .then(() => {
-        this.setState({
-          search_phone_number:'',
-          First_name:'',
-          Last_name:'',
-          Address:'',
-          loaded:false,
-        })
+//         this.setState({
+//           search_phone_number:'',
+//           First_name:'',
+//           Last_name:'',
+//           Address:'',
+//           loaded:false,
+//         })
         alert("Clerk updated");
         window.location.replace("/Admin/Clerk");
       })
