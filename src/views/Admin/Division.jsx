@@ -184,41 +184,8 @@ class Dashboard extends React.Component {
           </GridItem>
          
         </GridContainer>
-        {/* <GridContainer>
-        <GridItem xs={12} sm={12} md={6}>
-            <Card chart>
-              <CardHeader color="warning">
-                <ChartistGraph
-                  className="ct-chart"
-                  data={{
-                    labels: [
-                      "Field 1",
-                      "Field 2",
-                      "Field 3"
-                    ],
-                    series: [[this.state.field1,this.state.field2, this.state.field2]]
-                  }}
-                  type="Bar"
-                  options={emailsSubscriptionChart.options}
-                  responsiveOptions={emailsSubscriptionChart.responsiveOptions}
-                  listener={emailsSubscriptionChart.animation}
-                />
-              </CardHeader>
-              <CardBody>
-                <h4 className={classes.cardTitle}>Yesterday Field Summary</h4>
-                <p className={classes.cardCategory}>
-                  Crop Yeild
-                </p>
-              </CardBody>
-              <CardFooter chart>
-                <div className={classes.stats}>
-                  <AccessTime /> campaign sent 2 days ago
-                </div>
-              </CardFooter>
-            </Card>
-          </GridItem>
-         
-        </GridContainer>
+        
+        
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>
             <CustomTabs
