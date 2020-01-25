@@ -196,21 +196,21 @@ class Register extends React.Component {
         </div>
       </div>
       
-      <div className="field">
-        <label className="label"></label>
-        <div className="field">
-          <div className="control">
-            <input value={this.state.Address}
-              name="Address"
-              className="input"
-              type="text"
-              onChange={(event) => this.setState({ Address: event.target.value })}
-              placeholder="Address" required/>
-               {errors.Address.length > 0 &&  
-                 <span className='error'>{errors.Address}</span>} 
-          </div>
-        </div>
-      </div>
+//       <div className="field">
+//         <label className="label"></label>
+//         <div className="field">
+//           <div className="control">
+//             <input value={this.state.Address}
+//               name="Address"
+//               className="input"
+//               type="text"
+//               onChange={(event) => this.setState({ Address: event.target.value })}
+//               placeholder="Address" required/>
+//                {errors.Address.length > 0 &&  
+//                  <span className='error'>{errors.Address}</span>} 
+//           </div>
+//         </div>
+//       </div>
 
       
 
