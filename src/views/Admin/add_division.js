@@ -197,7 +197,7 @@ class Register extends React.Component {
         </div>
       </div>
 
-    
+    // add no_of_field 
 
           <div className="field">
         <label className="label"></label>
