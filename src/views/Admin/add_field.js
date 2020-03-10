@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import carfix from "./SunrisePeekTeaEstate.jpg";
 // import "./UserProfile.css";
 
-import test.jpg;
+// import test.jpg;
 import "../../pages/App.css";
 import firebase from "../../config/firebase.js";
 
