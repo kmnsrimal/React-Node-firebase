@@ -281,7 +281,7 @@ class Register extends React.Component {
       </div>
       : null}
 
-      {this.state.loaded ?
+     
        <div className="field">
         <label className="label"></label>
         <div className="field">
@@ -297,7 +297,7 @@ class Register extends React.Component {
           </div>
         </div>
       </div>
-      : null}
+      
 
       {!this.state.loaded ?
          <div className='submit'>
