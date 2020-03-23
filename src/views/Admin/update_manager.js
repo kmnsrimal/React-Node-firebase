@@ -281,6 +281,24 @@ class Register extends React.Component {
       </div>
       : null}
 
+      {this.state.loaded ?
+       <div className="field">
+        <label className="label"></label>
+        <div className="field">
+          <div className="control">
+            <input value={this.state.Status}
+              name="Status"
+              className="input"
+              type="text"
+              onChange={(event) => this.setState({ Status: event.target.value })}
+              placeholder="Status" required/>
+               {errors.Address.length > 0 &&  
+                 <span className='error'>{errors.Status}</span>} 
+          </div>
+        </div>
+      </div>
+      : null}
+
       {!this.state.loaded ?
          <div className='submit'>
               <button onClick={this.handleLoad}>Load</button>
